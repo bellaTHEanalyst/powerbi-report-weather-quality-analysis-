@@ -7,7 +7,7 @@
 I’m Isabella Martins, and I’m excited to share some insights about your business. This is a power project on predictive analysis of air quality using regression. Thank you for providing the guiding questions. It was helpful to see what types of insights you are looking to gain from the data. I hope you find the analysis compelling and helpful as you make decisions regarding future business opportunities.
 
 ## Problem Objective
-This project is on a company in the environmental consulting industry that is seeking to analyze the air quality in a specific city during hot and cold weather, during high-wind conditions in air quality, analyze and derive insights to help make recommendations to give the government and business in the region on how to mitigate the impact of weather conditions on air quality.
+This project is about a company in the environmental consulting industry that is seeking to analyze the air quality in a specific city during hot and cold weather, during high-wind conditions in air quality, analyze and derive insights to help make recommendations to give the government and business in the region on how to mitigate the impact of weather conditions on air quality.
 
 ## Problem statement
 1. What is air quality?
