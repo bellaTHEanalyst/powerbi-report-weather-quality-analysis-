@@ -47,7 +47,7 @@ I tried to create a relationship using date tabels,though it wasn’t necessary 
 2. I filtered out all null values
 3. I changed datatype from 'TEXT" to 'WHOLE NUMBER'
 ![](https://github.com/bellaTHEanalyst/powerbi-report-weather-quality-analysis-/blob/main/powerquery%20table.jpg)
-4. I created a new measure for month as “short_month” 
+4. I created a new calculated column for month as “short_month 
 ![](https://github.com/bellaTHEanalyst/powerbi-report-weather-quality-analysis-/blob/main/short_month.jpg)
 
  ## SOLUTION
@@ -62,7 +62,7 @@ Pm2.5 is used when describing pollutant levels both outdoors and indoors, where 
 Fine particulate matter (PM2.5) is an air pollutant that is a concern for people's health when levels in the air are high. PM2.5 are tiny particles in the air that reduce visibility and cause the air to appear hazy when levels are elevated
 
 # **NOTE** : pm2.5 in this dataset is given in(ug/m^3)
- ## Analyzation 1: What weather factors influenced the PM 2.5 value?
+ ## Analysis 1: What weather factors influenced the PM 2.5 value?
 Weather factors that affect the PM2.5 value include the dewpoint, temperature, combined wind direction, hours of rainfall, hours of snow, and hours of the day
 - Visual 1:
 Dew point:  The points in the scatterplot can be seen rising from left to right with all points nearby and we see a high positive correlation here; the dew point is positively correlated with the PM 2.5 values. As the dew point increased, so did the PM 2.5 value except for a few cases of outliers. The highest PM 2.5 value was experienced at -24(â„ƒ) 
@@ -89,12 +89,12 @@ Combined wind direction: I used a column chart to analyze the relationship betwe
  Hours of rainfall: The results showed that the PM 2.5 value has a low negative correlation with rainfall as points can be seen falling from left to right. The lower the hours of rainfall, the higher the concentration of PM 2.5 and vice versa. The PM 2.5 value was at its highest when there was no rainfall and its value decreased as the hours of rainfall increased.
 ![](https://github.com/bellaTHEanalyst/powerbi-report-weather-quality-analysis-/blob/main/visual%206%20weather.jpg)
 
-## Analyzation 2: Which month and year recorded the highest and lowest PM 2.5 value?
+## Analysis 2: Which month and year recorded the highest and lowest PM 2.5 value?
 I used a line chart to create a trend analysis to analyze the pm2.5 values over across the years and months.
 ![](https://github.com/bellaTHEanalyst/powerbi-report-weather-quality-analysis-/blob/main/analysis%202.jpg)
 - I noticed that in January 2013, the average PM 2.5 value recorded its highest value of 193.27 ug/m³ while its lowest value of 60.00 ug/m³ was recorded in December 2012
 
-## Analyzation 3: What is your forecast projection of the average pm2.5 value in the next 4 years?
+## Analysis 3: What is your forecast projection of the average pm2.5 value in the next 4 years?
 I used a line chart to forecast the average pm2.5 value in the next 4 years as shown below:
 
 ![](https://github.com/bellaTHEanalyst/powerbi-report-weather-quality-analysis-/blob/main/analysis%203.jpg)
