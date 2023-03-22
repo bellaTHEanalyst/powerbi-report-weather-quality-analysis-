@@ -35,7 +35,7 @@ Song Xi Chen, csx '@' gsm.pku.edu.cn, Guanghua School of Management, Center for 
 - Power Query
 - Dax
 - Modeling
-- Quick measure
+- calculated colums
 
 ## MODELLING
 I tried to create a relationship using date tabels,though it wasn’t necessary as we have just  one fact table and no dimension table, but a relationship was created between tables using the dates.
